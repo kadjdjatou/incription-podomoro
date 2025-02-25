@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pomodoro Timer</h1>
+            <p id="current-date"></p>
+        </header>
+        <main>
+            <div class="timer-box">
+                <div class="mode-buttons">
+                    <button id="pomodoro-btn" class="active">Pomodoro</button>
+                    <button id="short-break-btn">Pause Courte</button>
+                    <button id="long-break-btn">Pause Longue</button>
+                </div>
+                <div id="timer">25:00</div>
+                <div class="controls">
+                    <button id="start">Démarrer</button>
+                    <button id="pause">Pause</button>
+                    <button id="reset">Réinitialiser</button>
+                </div>
+                <p>Sessions terminées : <span id="session-count">0</span></p>
+            </div>
+            <div class="task-container">
+                <h2>Suivi des Tâches</h2>
+                <div class="task-input">
+                    <input type="text" id="task-input" placeholder="Ajouter une tâche...">
+                    <button id="add-task">Ajouter</button>
+                </div>
+                <ul id="task-list"></ul>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
