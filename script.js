@@ -88,7 +88,7 @@ addTaskBtn.addEventListener("click", addTask);
 */
 // gestion du minuteur
 let timer;
-let timeLeft = 3;
+let timeLeft = 1500;
 let isRunning = false;
 let sessionCount = 0;
 
